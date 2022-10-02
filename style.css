@@ -76,6 +76,7 @@ body {
       height: auto; /* Should be removed. Only for demonstration */
     }
     
+    /*Makes a sub division for the left side*/
     .container {
       float: left;
       width: 50%;
@@ -121,6 +122,7 @@ body {
       margin-right: auto;
     }
 
+    /* Font settings */
     .header {
       font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
       font-size: 175%;
@@ -135,6 +137,7 @@ body {
       font-size: 95%;
     }
 
+    /*Makes circles with white text*/
     .circle {
       width: 50px;
       height: 50px;
@@ -149,6 +152,7 @@ body {
       margin-bottom: 10;
     }
 
+    /*Image size and positioning, makes the image centered in the div, without overflowing to the right*/
     .portrett {
       margin-left: 50%;
       transform: translateX(-50%);
@@ -157,6 +161,7 @@ body {
       border-radius: 50%;
     }
 
+    /*Styling and positionning*/
     .faktaboks {
       border-top: 2px solid #000;
       border-bottom: 1px solid #000;
