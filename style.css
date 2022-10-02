@@ -13,6 +13,8 @@ body {
           }
           /* ~~ Top Navigation Bar ~~ */
 
+          /*Burde endre mye av css'en for å få responsivt design*/
+
           #navigation-container {
             width: 1200px;
             margin: 0 auto;
