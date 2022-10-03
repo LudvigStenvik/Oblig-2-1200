@@ -35,9 +35,9 @@ body {
           margin-left: 25%;
           }
 
-          /*Satt position til fixed så den ikke flytter seg ut av line*/
+          /*Satt position til absolute så den ikke flytter seg ut av linje*/
           .navigation-bar ul {
-            position: fixed;
+            position: absolute;
             padding: 0;
             margin: 10;
             text-align: left;
