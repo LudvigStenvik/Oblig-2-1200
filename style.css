@@ -21,6 +21,7 @@ body {
             height: 90px;
           }
 
+          /*Nav baren er det eneste som ikke har dynamisk størrelse*/
           .navigation-bar {
             background-color: #1e1e1e;
             height: 90px;
@@ -34,9 +35,11 @@ body {
           margin-left: 25%;
           }
 
+          /*Satt position til fixed så den ikke flytter seg ut av line*/
           .navigation-bar ul {
-            padding: 0px;
-            margin: 0;
+            position: fixed;
+            padding: 0;
+            margin: 10;
             text-align: left;
             font-size: x-large;
             margin-left: 5%;
@@ -54,7 +57,7 @@ body {
           }
 
           .navigation-bar li a {
-            color: rgb(250, 250, 250);
+            color: white;
             font-size: 16px;
             font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
             text-decoration: none;
