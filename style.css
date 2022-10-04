@@ -35,7 +35,7 @@ body {
           margin-left: 25%;
           }
 
-          /*Satt position til fixed så den ikke flytter seg ut av line*/
+          /*Satt position til absolute så den ikke flytter seg ut av linje*/
           .navigation-bar ul {
             position: absolute;
             max-height: 70px;
