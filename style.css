@@ -37,7 +37,8 @@ body {
 
           /*Satt position til fixed så den ikke flytter seg ut av line*/
           .navigation-bar ul {
-            position: fixed;
+            position: absolute;
+            max-height: 70px;
             padding: 0;
             margin: 10;
             text-align: left;
@@ -45,12 +46,13 @@ body {
             margin-left: 5%;
             display:inline-block;
             vertical-align:top;
+            overflow-y: hidden;
           }
 
           .navigation-bar li {
             list-style-type: none;
             padding: 0px;
-            height: 24px;
+            height: auto;
             margin-top: 4px;
             margin-bottom: 4px;
             display: inline;
@@ -184,7 +186,7 @@ body {
     }
 
     /*List styling and removes overflow going out of the box*/
-    .list {
+    .faktaliste {
       overflow-y: hidden;
       padding-left: 10%;
       font-size: 1vw;
